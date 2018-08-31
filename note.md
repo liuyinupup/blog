@@ -83,5 +83,5 @@ timezone='Asia/Shanghai' 或 PRC
 
 从.env.example复制.env 并生成app key :  php artisan key:generate
 
-terminal  Alt+F12
+terminal  Alt+F12  
 Command Line Tools Console:Ctrl+Shift+x
