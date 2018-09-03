@@ -85,3 +85,14 @@ timezone='Asia/Shanghai' 或 PRC
 
 terminal  Alt+F12  
 Command Line Tools Console:Ctrl+Shift+x
+
+创建模型并建对应的迁移表 php artisan make:model User -m
+
+创建模型工厂 php artisan make:factory BlogFactory --model=Blog
+
+创建对应模型的资源路由器 php artisan make:controller BlogController --resource --model=Blog
+
+创建seeder php artisan make:seeder UserTableSeeder
+
+if pid=0    if pid=id
+$categorys = $this->orderBy(cate_order','asc')
